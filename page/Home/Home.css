@@ -1,0 +1,107 @@
+.main {
+	padding: 2em !important;
+	margin-top: 4em !important;
+	overflow-y: auto;
+	height: 150vh;
+	padding-top: 3em !important;
+	background-color: rgb(215, 212, 217);
+}
+
+.sidebar-button {
+	display: block !important;
+	text-align: start !important;
+
+	width: 100%;
+	padding: 1em !important;
+	color: rgb(54, 50, 50) !important;
+	font-weight: 600 !important;
+}
+.sidebar {
+	padding: 0px;
+	display: flex;
+	margin-top: 70px;
+}
+::-webkit-scrollbar {
+	width: 2px;
+}
+.user {
+	background-color: red;
+	position: sticky;
+	top: 63px;
+	width: 110%;
+	margin-left: -8px;
+	z-index: 1000;
+}
+.item-home {
+	position: fixed;
+	width: 23.5%;
+	overflow-y: auto;
+	height: 100vh;
+}
+.sidebar-item {
+	display: flex;
+	align-items: center;
+}
+.sidebar-button-report {
+	margin-bottom: 70em;
+}
+.sidebar-button {
+	font-size: 0.8em !important;
+}
+
+.MuiDialogTitle-root + .css-ypiqx9-MuiDialogContent-root {
+	width: 800px !important;
+}
+.css-1869usk-MuiFormControl-root {
+	min-width: 76px !important;
+}
+.css-1t7gszz-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+	top: 277px !important;
+	height: 201px !important;
+}
+.css-13xfq8m-MuiTabPanel-root {
+	padding: 0 !important;
+}
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+	width: 8em !important;
+	height: 2.5em !important;
+}
+.css-td95tv-MuiTabPanel-root {
+	padding: 0 !important;
+	background-color: rgb(245, 245, 245);
+	width: 100% !important;
+}
+.css-g0ule8 {
+	display: flex;
+	justify-content: center;
+}
+.css-13xfq8m-MuiTabPanel-root {
+	width: 100%;
+}
+.css-1vm0r4s-MuiPaper-root {
+	width: 0px;
+	width: 100% !important;
+}
+.css-ypiqx9-MuiDialogContent-root {
+	padding: 0px;
+}
+@media (min-width: 600px) and (max-width: 899px) {
+	.main {
+		padding-left: 48px !important;
+	}
+	.css-9awgfr-MuiPaper-root{
+		width: 96% !important;
+	}
+}
+@media (max-width: 599px) {
+	.css-jpln7h-MuiTabs-scroller {
+		overflow-x: auto !important;
+	}
+	.main {
+		gap: 2em;
+		padding: 0px !important;
+	}
+	.css-9awgfr-MuiPaper-root{
+		width: 94% !important;
+	}
+}

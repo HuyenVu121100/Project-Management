@@ -1,0 +1,27 @@
+.color-green {
+  background-color: green;
+  color: green;
+
+  margin-right: 7px;
+}
+.color-blue {
+  background-color: blue;
+  color: blue;
+
+  margin-right: 7px;
+}
+.color-black {
+  background-color: black;
+  color: black;
+  margin-right: 7px;
+}
+.color-gold {
+  background-color: gold;
+  color: gold;
+  margin-right: 7px;
+}
+.font-awsome {
+  font-size: 1.5em;
+  color: aliceblue;
+  padding-top: 10px;
+}

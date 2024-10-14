@@ -1,0 +1,79 @@
+.header {
+  display: flex;
+  gap: 20px;
+  background-color: rgb(60, 60, 148);
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1201;
+  height: 72px;
+  align-items: center;
+}
+.green {
+  display: flex;
+  gap: 20px;
+  background-color: green;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1201;
+  height: 72px;
+  align-items: center;
+}
+.blue {
+  background-color: blue;
+  display: flex;
+  gap: 20px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1201;
+  height: 72px;
+  align-items: center;
+}
+.black {
+  background-color: black;
+  display: flex;
+  gap: 20px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1201;
+  height: 72px;
+  align-items: center;
+}
+.gold {
+  background-color: gold;
+  display: flex;
+  gap: 20px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1201;
+  height: 72px;
+  align-items: center;
+}
+.user {
+  margin-left: auto;
+  color: #f8f8f8 !important;
+  padding: 7px;
+}
+.logo {
+  color: rgb(254, 254, 254);
+  font-size: 25px;
+  padding-top: 10px;
+  padding-left: 9px;
+}
+.app-name {
+  color: #f8f8f8;
+  padding-top: 12px;
+}
+.user-sm {
+  margin-top: 5px;
+}
+.logout-button {
+  margin-left: auto;
+  padding-right: 2.5em;
+  color: #f8f8f8;
+  font-size: 16px;
+}
