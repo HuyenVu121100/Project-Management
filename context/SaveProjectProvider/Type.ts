@@ -5,8 +5,8 @@ export interface SaveProjectContextProps {
 	setProjectType: (projectType: number) => void;
 	customerId: number;
 	setCustomerId: (customerId: number) => void;
-	users: any[];
-	setUsers: (users: any[]) => void;
+	users: UseType[];
+	setUsers: (users: UseType[]) => void;
 	filteredTasks: any[];
 	setBillable: (taskId: number, isBillable: boolean) => void;
 	handleClose: () => void;
